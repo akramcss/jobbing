@@ -11,13 +11,16 @@
 
 header .container-PageTop{
     display: flex;
+    /* align-items: center; */
     justify-content: space-between;
     padding: 2px 4%;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
     height: 64px;;
+   
     background: linear-gradient(45deg, #ec6600, #ec660096) !important;
     
 }
@@ -70,34 +73,6 @@ header .servicesLink  a:hover {
     color: black;
 
 }
-
-header .fas{
-    display: none;
-}
-
-@media(max-width: 700px){
-   
-    header .navbar ul li{
-        display: block;
-    }
-    header .navbar{
-       display: none;
-
-    }
-    header .navbar .fas {
-        display: block; 
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer; 
-    }
-
-    header.nav-links ul{
-        padding: 30px;
-
-    };
-}
-
 /* Home */
 
 .home{

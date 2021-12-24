@@ -20,9 +20,10 @@
     <!-- BEGIN: Header -->
     <header>
         <div class="container-PageTop gradient-45deg-light-orange">
+            <a href="./index.html">
             <div class="logo"><img src="./images/search-job-logo-icon.png" alt=""></div>
-            <nav class="navbar" id="navLinks">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
+            </a>
+            <nav class=navbar>
                 <ul>
                     <li><a href="./Jobber.html"> Annonces </a></li>
                     <li><a href="./accountPage.html"> Profils </a></li>
@@ -30,7 +31,6 @@
                     <a class= "servicesLink" href="./accountPage.html" > <i class="fa fa-user" aria-hidden="true"></i>  Connexion </a>  
                 </ul>
             </nav>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
         </div>
     </header>
 
@@ -52,14 +52,14 @@
                         <div class ="col-md-4">
                             <div class="col-md-12" >
                                 <div class="col-md-12 form-mobile">
-                                    <a class="linkfirsthome" href=""">Je cherche un job</a>
+                                    <a class="linkfirsthome" href="./Jobber.html">Je cherche un job</a>
 
                                 </div> 
                             </div>
 
                             <div class="col-md-12" >
                                 <div class="col-md-12 form-mobile">
-                                    <a class="linksecondehome" href=""">Je cherche un jobber</a>
+                                    <a class="linksecondehome" href="./Jobber.html">Je cherche un jobber</a>
 
                                 </div> 
                             </div>
@@ -415,17 +415,6 @@
 </section>
 
 <!-- footer section ends -->
-
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0"
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px"
-    }
-    
-</script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
